@@ -15,6 +15,7 @@
 		F237517026EA9CEB00D2158C /* RandomUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237516F26EA9CEB00D2158C /* RandomUsersUITests.swift */; };
 		F237517D26EAA2B100D2158C /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237517C26EAA2B100D2158C /* UserFetchingClient.swift */; };
 		F237517F26EAA37000D2158C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237517E26EAA37000D2158C /* UserData.swift */; };
+		F237518126EAAABC00D2158C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237518026EAAABC00D2158C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		F237516F26EA9CEB00D2158C /* RandomUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITests.swift; sourceTree = "<group>"; };
 		F237517C26EAA2B100D2158C /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 		F237517E26EAA37000D2158C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		F237518026EAAABC00D2158C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F237515626EA9CE800D2158C /* ContentView.swift */,
 				F237517C26EAA2B100D2158C /* UserFetchingClient.swift */,
 				F237517E26EAA37000D2158C /* UserData.swift */,
+				F237518026EAAABC00D2158C /* User.swift */,
 				F237515826EA9CEB00D2158C /* Assets.xcassets */,
 				F237515A26EA9CEB00D2158C /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 				F237515726EA9CE800D2158C /* ContentView.swift in Sources */,
 				F237515526EA9CE800D2158C /* RandomUsersApp.swift in Sources */,
 				F237517F26EAA37000D2158C /* UserData.swift in Sources */,
+				F237518126EAAABC00D2158C /* User.swift in Sources */,
 				F237517D26EAA2B100D2158C /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
