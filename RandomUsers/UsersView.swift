@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  UsersView.swift
 //  RandomUsers
 //
 //  Created by Ben Stone on 9/9/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct UsersView: View {
     @StateObject var userData = UserData()
     
     var body: some View {
@@ -24,8 +24,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct UsersView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        UsersView()
     }
 }
