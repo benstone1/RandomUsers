@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E07E9CA92741E5AB00364B1C /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = E07E9CA82741E5AB00364B1C /* randomUsers.json */; };
 		F237515526EA9CE800D2158C /* RandomUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237515426EA9CE800D2158C /* RandomUsersApp.swift */; };
-		F237515726EA9CE800D2158C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237515626EA9CE800D2158C /* ContentView.swift */; };
+		F237515726EA9CE800D2158C /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237515626EA9CE800D2158C /* UsersView.swift */; };
 		F237515926EA9CEB00D2158C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F237515826EA9CEB00D2158C /* Assets.xcassets */; };
 		F237515C26EA9CEB00D2158C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F237515B26EA9CEB00D2158C /* Preview Assets.xcassets */; };
 		F237516626EA9CEB00D2158C /* RandomUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237516526EA9CEB00D2158C /* RandomUsersTests.swift */; };
@@ -16,9 +17,6 @@
 		F237517D26EAA2B100D2158C /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237517C26EAA2B100D2158C /* UserFetchingClient.swift */; };
 		F237517F26EAA37000D2158C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237517E26EAA37000D2158C /* UserData.swift */; };
 		F237518126EAAABC00D2158C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237518026EAAABC00D2158C /* User.swift */; };
-		F257477026EAB72400C7E2AB /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = F257476F26EAB72400C7E2AB /* randomUsers.json */; };
-		F257477126EAB72700C7E2AB /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = F257476F26EAB72400C7E2AB /* randomUsers.json */; };
-		F257477226EAB72700C7E2AB /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = F257476F26EAB72400C7E2AB /* randomUsers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E07E9CA82741E5AB00364B1C /* randomUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = randomUsers.json; sourceTree = "<group>"; };
 		F237515126EA9CE800D2158C /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F237515426EA9CE800D2158C /* RandomUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersApp.swift; sourceTree = "<group>"; };
-		F237515626EA9CE800D2158C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F237515626EA9CE800D2158C /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		F237515826EA9CEB00D2158C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F237515B26EA9CEB00D2158C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F237516126EA9CEB00D2158C /* RandomUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +50,6 @@
 		F237517C26EAA2B100D2158C /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 		F237517E26EAA37000D2158C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		F237518026EAAABC00D2158C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		F257476F26EAB72400C7E2AB /* randomUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = randomUsers.json; path = ../../randomUsers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,7 @@
 		F237514826EA9CE800D2158C = {
 			isa = PBXGroup;
 			children = (
-				F257476F26EAB72400C7E2AB /* randomUsers.json */,
+				E07E9CA82741E5AB00364B1C /* randomUsers.json */,
 				F237515326EA9CE800D2158C /* RandomUsers */,
 				F237516426EA9CEB00D2158C /* RandomUsersTests */,
 				F237516E26EA9CEB00D2158C /* RandomUsersUITests */,
@@ -104,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				F237515426EA9CE800D2158C /* RandomUsersApp.swift */,
-				F237515626EA9CE800D2158C /* ContentView.swift */,
+				F237515626EA9CE800D2158C /* UsersView.swift */,
 				F237517C26EAA2B100D2158C /* UserFetchingClient.swift */,
 				F237517E26EAA37000D2158C /* UserData.swift */,
 				F237518026EAAABC00D2158C /* User.swift */,
@@ -244,7 +242,7 @@
 			files = (
 				F237515C26EA9CEB00D2158C /* Preview Assets.xcassets in Resources */,
 				F237515926EA9CEB00D2158C /* Assets.xcassets in Resources */,
-				F257477026EAB72400C7E2AB /* randomUsers.json in Resources */,
+				E07E9CA92741E5AB00364B1C /* randomUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F257477126EAB72700C7E2AB /* randomUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +257,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F257477226EAB72700C7E2AB /* randomUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F237515726EA9CE800D2158C /* ContentView.swift in Sources */,
+				F237515726EA9CE800D2158C /* UsersView.swift in Sources */,
 				F237515526EA9CE800D2158C /* RandomUsersApp.swift in Sources */,
 				F237517F26EAA37000D2158C /* UserData.swift in Sources */,
 				F237518126EAAABC00D2158C /* User.swift in Sources */,
