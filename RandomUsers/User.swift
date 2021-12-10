@@ -16,7 +16,7 @@ struct Response: Decodable {
 }
 
 struct User: Decodable, Identifiable {
-    var id: String
+    let id: String
     let name: Name
     
     var fullName: String {
