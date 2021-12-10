@@ -16,7 +16,7 @@ struct Response: Decodable {
 }
 
 struct User: Decodable, Identifiable {
-    var id: String
+    let id: String
     let name: Name
     
     var fullName: String {
@@ -30,10 +30,11 @@ struct User: Decodable, Identifiable {
         id = try loginInfo.decode(String.self, forKey: .uuid)
     }
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: CodingKey {
         case name
         case login
     }
+    
     enum LoginInfoCodingKeys: String, CodingKey {
         case uuid
     }
